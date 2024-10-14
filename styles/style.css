@@ -130,7 +130,7 @@ main section{
     justify-content: space-around;
 }
 .resume-item{
-    max-width: 500px;
+    max-width: 600px;
 }
 .resume-item-isntitute, .resume-item-description{
     color: #757575;
@@ -145,8 +145,28 @@ main section{
 }
 .Download{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 footer{
+    display: flex;
+    gap: 100px;
     background-color: #fff8f3;
+    padding: 130px 230px;
+    margin-top: 130px;
+}
+.footer{
+    width: 50%;
+}
+.social-links a{
+    margin-right: 25px;
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 30px;
+    padding: 20px 35px;
+    color: #757575;
+    border-radius: 5px;
+    color: #fff;
+    border: 0;
+    width: 100%;
 }
