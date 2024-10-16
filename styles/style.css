@@ -168,5 +168,8 @@ footer{
     border-radius: 5px;
     color: #fff;
     border: 0;
-    width: 100%;
+    width: 80%;
+}
+textarea{
+    height: 100px;
 }
